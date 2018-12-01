@@ -1,0 +1,50 @@
+
+/* body font styling here↓ */
+body {
+  font-size: 14px;
+}
+
+/* menu styling here↓ */
+nav {
+  background color: yellow;
+  height: 100px;
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+}
+
+/* margin styling here↓ */
+section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* H1 styling here↓ */
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+/* example class styling here↓ */
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* H3 styling here↓ */
+h3 {
+  font-size: 1.3em;
+}
+
+/* element class styling here↓ */
+.element {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* div.feature styling here↓ (#4 in the chckpoint assignment) */
+div.feature {
+  background-color: pink;
+}
