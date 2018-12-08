@@ -35,6 +35,7 @@ h3 {
 
 p {
   font-size: 100%; /* 16px */
+  padding-bottom: 2em
 }
 
 nav {
@@ -91,5 +92,5 @@ a {
 
 a:link { color:#0070BB; } /* unvisited */
 a:visited { color:#0070BA; } /* visited */
-a:hover { color:#0070BC; } /* mouse over */
+a:hover { color:#99c5e4; } /* mouse over */
 a:active { color:#0070BD; } /* selected */
