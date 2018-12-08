@@ -25,6 +25,10 @@ nav {
     background-color: #ccc;
     padding: 1em
     box-sizing: border-box;
+    display: inline;
+    background-color: inherit;
+    height:auto;
+    box-sizing: border-box;
 }
 
 .restaurant-list h1 {
@@ -43,24 +47,19 @@ nav {
   width: 420px;
   border-top: 1px solid #000000;
   height: auto%
+  display:inline;
 }
 
 .arrow {
   float: right;
   height: auto;
+  display:inline;
 }
 
-.location-arrow {
-  display: inline-block;
-/*   padding: 5px; */
-}
-
-div.restaurant-list {
-    background-color: inherit;
-    width: 100%
-    height:auto;
-    box-sizing: border-box;
+.location, .arrow {
+      vertical-align:top;
   }
+
 
 div.location:hover {
    background-color: B8B8B8;
