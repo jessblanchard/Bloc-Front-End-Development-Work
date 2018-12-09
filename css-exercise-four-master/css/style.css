@@ -1,176 +1,91 @@
-
- *, *:before, *:after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #ccc;
-
-}
-
 .container {
-  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  background-color: ccc;
   display: inline-block;
-  margin: 0px auto;
-  width: 100%;
-}
-
-.title {
-  background-color: inherit;
-  float: left;
-  width: 100%;
-  font-size: 30px;
-  margin:30px
-
-}
-
-.baku {
-  margin-top: 2%;
-  width: 100%;
-  padding: 0;
-  position: relative;
   text-align: center;
 }
 
-.london {
-  margin-top: 2%;
-  width: 100%;
-  padding: 0;
-  position: relative;
-  text-align: center;
 
-}
-
-.madrid {
-  margin-top: 2%;
-  width: 100%;
-  padding: 0;
-  position: relative;
-  text-align: center;
-}
-
-.rome {
-  margin-top: 2%;
-  width: 100%;
-  padding: 0;
-  position: relative;
-  text-align: center;
-}
-
-.img {
-  width: 100px
-  height: 100px
+.Baku {
+    background-image: url("../images/baku.jpg");
+    height:300px;
+    width: 100%;
+    background-size:cover;
+    text-align: left;
+    background-repeat: no-repeat;
+    margin:2%;
+    display: inline-block;
+    font-family:serif;
 }
 
 h1 {
-  font-size: 50px;
-  position: absolute;
-  top: 80px;
-  left: 128px;
-
+text-indent: 25%;
+line-height: 500%;
+font-size: 30px;
 }
 
-div {
-  column-count: 1;
+.London {
+    background-image: url("../images/london.png");
+    height:300px;
+    width: 100%;
+    background-size:cover;
+    text-align: left;
+    background-repeat: no-repeat;
+    margin:2%;
+    display: inline-block;
+    font-family:serif;
+}
+
+
+.Madrid {
+    background-image: url("../images/madrid.jpg");
+    height:300px;
+    width: 100%;
+    background-size:cover;
+    text-align: left;
+    background-repeat: no-repeat;
+    margin:2%;
+    display: inline-block;
+    font-family:serif;
+}
+
+
+.Rome {
+    background-image: url("../images/rome.jpg");
+    height: 300px;
+    width: 100%;
+    background-size:cover;
+    text-align: left;
+    background-repeat: no-repeat;
+    margin:2%;
+    display:inline-block;
+    font-family:serif;
+}
+
+
+.Title {
+  font-size: 20pt;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  margin:5%
 }
 
 @media screen and (min-width: 575px){
-   div {
-      column-count: 2;
-  }
-}
-
-@media screen and (min-width: 991px){
-     div {
-        column-count: 4;
-    }
-}
-
-/*
-
-body {
-  background-color: #dadada;
-  font-size: 20px;
-  display: block;
-}
-
-div {
-  column-count: 1;
-}
-
-.baku {
-  height: 100%;
-  background-image: url("../images/baku.jpg");
-  background-size:contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-  margin: 0,0,0px;
-  width: 100%;
-}
-
-.text{
-  position:absolute;
-  top:60px;
-  left: 30px;
-}
-
-.london {
-  height: 100%;
-  background-image: url("../images/london.png");
-  background-size:contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-  margin: 0,0,0,0px;
-  width: 100%;
-
-}
-
-
-
-
-@media screen and (min-width: 575px){
-   div {
+   .baku, .london, .madrid, .rome {
     margin: 1%;
-    width: 48%;
+    width: 40%;
+    display: inline-block;
   }
-}
 
 @media screen and (min-width: 991px){
-     div {
-      margin: 1%;
-      width: 24%;
+    .baku, .london, .madrid, .rome {
+    margin: 1%;
+    width: 22%;
+    display: inline-block;
     }
-}
-
-
-
-
-.container {
-  background-color: inherit;
-  width: 100%;
-  height: 100%;
-}
-
-.previewlondontitle {
-  position: absolute;
-  top: 50px;
-  left: 30px;
-}
-
-.previewmadridtitle {
-  position: absolute;
-  top: 50px;
-  left: 30px;
-}
-.previewrometitle {
-  position: absolute;
-  top: 50px;
-  left: 30px;
-}
-
-
-
-div {
-  column-count: 1;
-}
-*/
