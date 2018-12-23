@@ -1,0 +1,112 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #000000;
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 1.5em;
+  width: 414px;
+  height: auto;
+  margin: 10px;
+}
+
+.StatusBarContainer{
+  background-color: #F8F8F8;
+  height: 64px;
+  line-height: 64px;
+
+}
+
+.StatusBarContainer h2{
+
+  position:relative;
+  top: -52px;
+  right: -100px;
+  font-weight: bold;
+
+
+}
+
+.NavBarContainer{
+  background-color: #FA7268;
+  height: 120px;
+}
+
+.RouteDataContainer{
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding:10px;
+}
+
+.Direction {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+h2{
+  color: #444444;
+}
+
+#Eastbound{
+  background-color: #ffffff;
+  width: 100%;
+  line-height:1.5em;
+  border: 2px;
+  text-align: left;
+
+
+
+
+
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  width: 33%;
+}
+
+th{
+font-weight: bold;
+color: #555555;
+background-color: #FA7268;
+color: white;
+border-color: #FA7268
+
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+td.onschedule{
+  color: green;
+}
+
+td.reroute{
+  color: orange;
+}
+
+td.outofservice{
+  color: red;
+}
+
+.location{
+  padding-top: 21.51px;
+  padding-bottom: 5.5px;
+  padding-left: 41.5px;
+  padding-right: 41.5px;
+}
+
+.destination{
+padding-top: 5.5px;
+padding-bottom: 21.51px;
+padding-left: 41.5px;
+padding-right: 41.5px;
+
+}
