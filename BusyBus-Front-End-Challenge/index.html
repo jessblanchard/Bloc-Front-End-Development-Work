@@ -4,25 +4,34 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>BusyBus</title>
     <style> th {text-align: left;}</style>
   </head>
   <body>
       <section class= "StatusBarContainer">
         <img src=CSS/images/Group.png alt="status">
-        <img src = CSS/images/Left.png alt = "back">
-        <h2>Washington Ave. & State St.</h2>
+        <i class="fas fa-chevron-left fa-lg arrow"></i>
+        <h2 class="back">Back</h2>
+        <!--          <img src = CSS/images/Left.png alt = "back">         -->
+        <h2 class ="busstop"> Washington Ave. & State St.</h2>
 
         </section>
 
       <section class="NavBarContainer">
         <div class="location">
-          <img src=CSS/images/location.png alt="current location">
+            <!--          <img src=CSS/images/location.png alt="current location">           -->
+            <i class="fas fa-search icon"></i>
+            <input class="input-field" name="Current Location" value="Current Location"><br>
+            <i class="fas fa-microphone microphone"></i>
         </div>
         <div class="destination">
-        <img src = CSS/images/Search.png alt = "destination">
+            <!--          <img src = CSS/images/Search.png alt = "destination">         -->
+            <i class="fas fa-search icon"></i>
+            <input class="input-field" name="Destination" value="Destination"><br>
+            <i class="fas fa-microphone microphone"></i>
         </div>
-          </section>
+      </section>
 
       <section class="RouteDataContainer">
 
@@ -143,5 +152,5 @@
       </section>
 
   </body>
-  
+
 </html>
